@@ -23,7 +23,6 @@ public class DaemonThreadTest {
 
     public static void main(String[] args) {
 
-        //Testing Git Commits
         Thread daemonThread = new Thread(new DaemonThread());
         daemonThread.setName(("Daemon - Thread"));
         daemonThread.setDaemon(true);
